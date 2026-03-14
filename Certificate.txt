@@ -1,0 +1,2 @@
+Here is a link to my CS50x certificate:
+https://cs50.harvard.edu/certificates/fc6c1ca3-0ea8-497c-ad32-4625e1ea1dce
