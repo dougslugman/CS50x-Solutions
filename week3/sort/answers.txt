@@ -1,0 +1,11 @@
+sort1 uses: bubble
+
+How do you know?: becuase we know from random50000 that the shortest was 2 indicating merge sort so it had to be either 1 or 3 for either bubble or selection. since shortest possible of bubble is n, and shortest of selection was n^2, running reversed50000.txt on both sort1 and sort3 means you could determine which one was bubble becuase it would have the shorter time
+
+sort2 uses: merge
+
+How do you know?: becuase i ran random50000.txt for all 3 sorts. becuase merge sort is the fastest which is most likely to be merge, i ran reversed and sorted50000 and the runtimes were identical meaning it had to be merger, becuase it big O and omega of n log n which is the same which no other one has, except for selection but it cant be thatone becuase random50000 determined that sort2 had a shorter runtime than every other sorting algorithm, thus is cant possibly be selection
+
+sort3 uses: selection
+
+How do you know?: we knew sort1 was bubble and sort2 was merge so that leaves only selection for sort3

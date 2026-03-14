@@ -1,0 +1,89 @@
+body {
+    background-color : #cacaca
+}
+
+h1 {
+    margin-top: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 5px red;
+    font-size: 100px;
+}
+
+.description {
+    font-family: "bahnschrift", Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+.container {
+      margin: auto;
+      width: 900px;
+}
+
+#canvas {
+    width: 750px;
+    height: 750px;
+    border: 5px solid #000000;
+    display: block;
+    margin: auto;
+    image-rendering: pixelated;
+}
+ #inputs {
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+#submit {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 70px;
+    margin-top: 40px;
+ }
+
+
+#buttonText {
+    font-size: 35px;
+ }
+
+ h3 {
+    text-align: center;
+    font-family: "bahnschrift", Arial, Helvetica, sans-serif;
+ }
+
+ #display {
+    text-align: center;
+ }
+
+
+#random {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+#download {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+#Information {
+    margin-top: 100px;
+    font-size: 50px;
+}
+
+#error {
+    margin-top: 15px;
+    text-align: center;
+    size: 20px;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
