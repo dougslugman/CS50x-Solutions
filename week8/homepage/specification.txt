@@ -1,0 +1,27 @@
+HTML tags:
+script
+p
+h1
+h5
+a
+img
+br
+hr
+button
+div
+ul
+ol
+li
+
+CSS tags:
+width
+margin
+padding
+color
+background-colour
+display
+text-align
+border
+
+I used JavaScript to provide a light and dark mode for the user
+I used Bootstrap to provide cards to present links to the other pages with my projects on them

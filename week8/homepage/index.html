@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>My Webpage</title>
+        <script>
+            function lightMode(){
+                document.querySelector(".darkbody").className = "lightbody";
+                document.querySelector(".darkh1").className = "lighth1";
+                document.querySelector(".darkp1").className = "lightp1";
+                document.querySelector(".darkdiv1").className = "lightdiv1";
+                document.querySelector(".darklist").className = "lightlist";
+                document.querySelector(".darkhr").className = "lighthr";
+
+                document.querySelector(".darkp2").className = "lightp2";
+                document.querySelector(".darkh51").className = "lighth51";
+                document.querySelector(".darkcard1").className = "lightcard1";
+
+                document.querySelector(".darkp3").className = "lightp3";
+                document.querySelector(".darkh52").className = "lighth52";
+                document.querySelector(".darkcard2").className = "lightcard2";
+
+                document.querySelector(".darkp4").className = "lightp4";
+                document.querySelector(".darkh53").className = "lighth53";
+                document.querySelector(".darkcard3").className = "lightcard3";
+            }
+
+            function darkMode(){
+                document.querySelector(".lightbody").className = "darkbody";
+                document.querySelector(".lighth1").className = "darkh1";
+                document.querySelector(".lightp1").className = "darkp1";
+                document.querySelector(".lightdiv1").className = "darkdiv1";
+                document.querySelector(".lightlist").className = "darklist";
+                document.querySelector(".lighthr").className = "darkhr";
+
+                document.querySelector(".lightp2").className = "darkp2";
+                document.querySelector(".lighth51").className = "darkh51";
+                document.querySelector(".lightcard1").className = "darkcard1";
+
+                document.querySelector(".lightp3").className = "darkp3";
+                document.querySelector(".lighth52").className = "darkh52";
+                document.querySelector(".lightcard2").className = "darkcard2";
+
+                document.querySelector(".lightp4").className = "darkp4";
+                document.querySelector(".lighth53").className = "darkh53";
+                document.querySelector(".lightcard3").className = "darkcard3";
+            }
+
+        </script>
+    </head>
+    <body class = "lightbody">
+        <button class = "lightbutton" onclick="lightMode()">Light</button>
+        <button class = "darkbutton" onclick="darkMode()">Dark</button>
+        <h1 class = "lighth1">My Homepage!</h1>
+        <hr class = "lighthr">
+        <div class = "lightdiv1">
+            <p class = "lightp1">Hi! I am Jesse and I have an interest in programming. I have been programming for 5 hand a half years and know 5 different programming lanaguages being as follows -> Below are some cards that link to the 3 main languages I have leanrt, and i will display projects I have made within them!</p>
+                <ul class = "lightlist">
+                    <li>Python</li>
+                    <li>C</li>
+                    <li>C#</li>
+                    <li>JavaScript</li>
+                    <li>Java</li>
+                </ul>
+            <img class = "image1" src = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fdreamlevels.com%2Fwp-content%2Fuploads%2F2020%2F02%2Fprogramming-languages.jpeg&f=1&nofb=1&ipt=e657e8e7f3b0c6c050d8c1f608330876788cc3ecbda38ef4b46351055c161778" alt = "Image of Various Programming Languages">
+        </div>
+        <br>
+
+        <div class="lightcard1" >
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.britefish.net%2Fwp-content%2Fuploads%2F2019%2F07%2Flogo-c-1.png&f=1&nofb=1&ipt=8267807c2a4e6d4914d45b2a93dc8e1b3c96a512e64d588d2558498c02a032eb" class="image2" alt="Image of programming language C">
+            <div>
+                <h5 class = "lighth51">My C projects</h5>
+                <p class = "lightp2">click on the button below to see the projects I have made using the programming language C!</p>
+                <a href="c.html" class="btn btn-primary">Go to C page</a>
+            </div>
+        </div>
+
+
+        <br>
+
+
+        <div class="lightcard2" >
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.fossee.in%2Fpython%2Flogos%2FLogo%2Fpython_logo.png&f=1&nofb=1&ipt=794ca2e27ace25314ea4bc7dcde5f0abcf0fc2ea94e356d70d5ab5a9036878eb" class="image3" alt="Image of programming language Python">
+            <div>
+                <h5 class = "lighth52">My Python projects</h5>
+                <p class = "lightp3">click on the button below to see the projects I have made using the programming language Python!</p>
+                <a href="python.html" class="btn btn-primary">Go to Python page</a>
+            </div>
+        </div>
+
+
+        <br>
+
+
+        <div class="lightcard3" >
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fc0.uidownload.com%2Fpngpics%2F180%2F2787%2Fc-logo-net-framework-icon-purple-software-symbol-microsoft-developer-tools-programming-language-emblem-tech-framework-badge-coding-environment-marker.png&f=1&nofb=1&ipt=00ec1e5c3fbd6042e6238e2a23c4baa2cb57f8e8954b30cd90ecdfc14867037c" class="image4" alt="Image of programming language C#">
+            <div>
+                <h5 class = "lighth53">My C# projects</h5>
+                <p class = "lightp4">click on the button below to see the projects I have made using the programming language C#!</p>
+                <a href="Csharp.html" class="btn btn-primary">Go to C# page</a>
+            </div>
+        </div>
+        </body>
+        </html>

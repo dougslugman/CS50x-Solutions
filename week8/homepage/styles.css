@@ -1,0 +1,241 @@
+button {
+    padding: 30px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+button.lightbutton {
+    background-color : white;
+    border-color : black;
+    color : black;
+}
+button.darkbutton {
+    background-color : black;
+    border-color : white;
+    color : white;
+}
+
+br {
+    margin:50px;
+}
+
+h1{
+    text-align : center;
+    font-family: "Times New Roman";
+    text-shadow: 2px 2px 5px red;
+    font-size: 100px;
+    letter-spacing: -6px;
+    margin-bottom: 125px;
+
+}
+.lighth1{
+    color : black:
+}
+.darkh1{
+    color : white;
+}
+
+
+
+
+.lightbody{
+    background-color : #ededed;
+}
+.darkbody{
+    background-color : #262626;
+}
+
+
+
+
+.lightdiv1{
+    width:87%;
+    display:flex;
+    align-items: center;
+    margin-left:100px;
+    background-color: #c4c4c4;
+    padding: 20px;
+}
+.darkdiv1{
+    width:87%;
+    display:flex;
+    align-items: center;
+    margin-left:100px;
+    background-color: #424242;
+    padding: 20px;
+}
+
+
+
+.image1{
+    width:666px;
+    height:300px;
+    margin-left:100px;
+}
+
+
+
+
+.lightp1{
+    color:black;
+
+}
+.darkp1{
+    color:white;
+}
+
+
+
+.lightlist li{
+    color: black;
+}
+.darklist li{
+    color: white;
+}
+
+
+
+
+hr{
+    border:none;
+    height:2px;
+}
+
+.lighthr{
+    background-color:black;
+}
+
+.darkhr{
+    background-color:white;
+}
+
+
+.lightcard1 {
+    width: 18rem;
+    background-color: #c4c4c4;
+    margin: auto;
+    border: 3px solid black;
+    padding: 10px;
+
+}
+.darkcard1 {
+    width: 18rem;
+    background-color: #424242;
+    margin: auto;
+    border: 3px solid white;
+    padding: 10px;
+
+
+}
+.image2 {
+    width:250px;
+    height:250px;
+
+}
+.lightp2{
+    color:black;
+    padding:10px;
+}
+.darkp2{
+    color:white;
+    padding:10px;
+}
+.lighth51{
+    color:black;
+    text-align:center;
+
+}
+.darkh51{
+    color:white;
+    text-align:center;
+}
+
+
+
+
+
+
+.lightcard2 {
+    width: 18rem;
+    background-color: #c4c4c4;
+    margin: auto;
+    border: 3px solid black;
+    padding: 10px;
+
+}
+.darkcard2 {
+    width: 18rem;
+    background-color: #424242;
+    margin: auto;
+    border: 3px solid white;
+    padding: 10px;
+
+}
+.image3 {
+    width:250px;
+    height:250px;
+
+}
+.lightp3{
+    color:black;
+    padding:10px;
+}
+.darkp3{
+    color:white;
+    padding:10px;
+}
+.lighth52{
+    color:black;
+    text-align:center;
+
+}
+.darkh52{
+    color:white;
+    text-align:center;
+}
+
+
+
+
+
+
+.lightcard3 {
+    width: 18rem;
+    background-color: #c4c4c4;
+    margin: auto;
+    border: 3px solid black;
+    padding: 10px;
+    margin-bottom: 50px;
+
+}
+.darkcard3 {
+    width: 18rem;
+    background-color: #424242;
+    margin: auto;
+    border: 3px solid white;
+    padding: 10px;
+    margin-bottom: 50px;
+
+}
+.image4 {
+    width:250px;
+    height:250px;
+
+}
+.lightp4{
+    color:black;
+    padding:10px;
+}
+.darkp4{
+    color:white;
+    padding:10px;
+}
+.lighth53{
+    color:black;
+    text-align:center;
+
+}
+.darkh53{
+    color:white;
+    text-align:center;
+}

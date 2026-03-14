@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <script>
+            function incorrect(event){
+                event.target.style.backgroundColor = "Red";
+                document.querySelector(".responce").innerHTML = "Inorrect";
+            }
+            function correct(event){
+                event.target.style.backgroundColor = "Green";
+                document.querySelector(".responce").innerHTML = "Correct";
+            }
+            function checkResponce(event){
+                let attempt = document.querySelector(".choice").value;
+                let answer = "1957";
+                if (attempt == answer){
+                    document.querySelector(".choice").style.backgroundColor = "Green";
+                    document.querySelector(".feedback").innerHTML = "Correct";
+                }
+                else {
+                    document.querySelector(".choice").style.backgroundColor = "Red";
+                    document.querySelector(".feedback").innerHTML = "Inorrect";
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <h3>Who created Linux?</h3>
+                <input type="button" onclick = "incorrect(event)" value="John Linux">
+                <input type="button" onclick = "incorrect(event)" value="Steve Jobs">
+                <input type="button" onclick = "correct(event)" value="Linus Torvalds">
+                <input type="button" onclick = "incorrect(event)" value="Bill Gates">
+                <p class = "responce"></p>
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <h3>What year was the programming language Fortran first used?</h3>
+                <input type = "text" class = "choice">
+                <input type="button" onclick = "checkResponce(event)" value="submit">
+                <p class = "feedback"></p>
+            </div>
+        </div>
+    </body>
+</html>
